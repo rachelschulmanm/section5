@@ -1,0 +1,29 @@
+
+
+li {
+    text-align: justify;
+    display: inline;
+ 
+  }
+  @media(max-width:600px){
+    li .a{display:none;}
+        li .b{float: none;
+        height: 98vw;
+        width: 50vh;
+    
+        }
+    }
+  
+  p{
+  float: left;
+    width: 150px;
+    height: 150px;
+    border: 2px black solid;
+    overflow: auto;
+  padding: 10px;
+
+  }
+  h1{
+    font-size: 20px;
+  }
+ 

@@ -1,0 +1,23 @@
+@media(max-width:600px){
+   h1 { font-size:64px;}
+   body {
+    background-color: lightblue;
+    font-size: 1.5em;
+    header{
+        
+    }
+  } 
+}
+  
+  html {
+    @include fluid-type($min_width, $max_width, $min_font, $max_font);
+  }
+  
+  body {
+    viewport-fit: 98%;
+    vh
+    max-width: 1000px;
+    padding: 1rem;
+    margin: 0 auto;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  }
