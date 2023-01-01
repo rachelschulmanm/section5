@@ -1,0 +1,45 @@
+@media(max-width:400px){
+    .container{
+        background-color: rgb(227, 227, 232);
+height:50vh;
+    width: 100vw;
+        flex-direction:column;
+        align-items: center;  
+    width: 100vw;
+    }
+    ul{flex-direction:column;
+    justify-content: center;
+    width: 100vw;
+    align-items: center;
+}
+
+
+
+}
+
+
+
+
+
+ul {
+    
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    justify-content:end; 
+    display: flex;
+
+    
+  }
+  .app{
+width: 100vw;
+   justify-content:start; 
+    display: flex;
+   }
+
+  li {
+    display: block;
+    padding: 8px;
+    background-color: #dddddd;
+    text-decoration: none;
+  }
